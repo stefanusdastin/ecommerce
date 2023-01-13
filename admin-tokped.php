@@ -59,7 +59,7 @@ if (!isset($_SESSION['email'])) {
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-light shadow-lg p-2">
         <div class="container-fluid">
-            <a class="navbar-brand" href="http://localhost/pemrograman-web/pertemuan1/Ecommerce/admin-tokped.php">
+            <a class="navbar-brand" href="http://localhost/Tokopedia/admin-tokped.php">
                 <img src="img/logo.svg" alt="" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,7 +68,7 @@ if (!isset($_SESSION['email'])) {
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="http://localhost/pemrograman-web/pertemuan1/Ecommerce/admin-tokped.php">Home</a>
+                        <a class="nav-link active" aria-current="page" href="http://localhost/Tokopedia/admin-tokped.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">For You</a>
@@ -189,142 +189,156 @@ if (!isset($_SESSION['email'])) {
         </div>
         <div class="row">
             <div class="col-sm-3 mb-3">
-                <div class="card" style="border-radius: 20px">
-                    <img src="img/produk1.webp" class="card-img-top" style="border-radius: 20px; width: auto; height: auto" alt="GHANYA Bantal UNICORN Cushion - UNICORN RANDOM" />
-                    <div class="card-body">
-                        <div class="card-text">
-                            <p>GHANYA Bantal UNICORN Cushion - UNICORN...</p>
-                            <b>
-                                <p>Rp90.000</p>
-                            </b>
-                            <b>
-                                <p class="text-danger">22% <s class="text-dark">Rp115.000</s></p>
-                            </b>
-                            <p class="card-text"><i class="bi bi-geo-alt"></i><b> Jakarta Utara</b></p>
+                <a href="http://localhost/Tokopedia/landing-tokped.php">
+                    <div class="card" style="border-radius: 20px">
+                        <img src="img/produk1.webp" class="card-img-top" style="border-radius: 20px; width: auto; height: auto" alt="GHANYA Bantal UNICORN Cushion - UNICORN RANDOM" />
+                        <div class="card-body">
+                            <div class="card-text" style="color: black; text-decoration: none">
+                                <p>GHANYA Bantal UNICORN Cushion - UNICORN...</p>
+                                <b>
+                                    <p>Rp90.000</p>
+                                </b>
+                                <b>
+                                    <p class="text-danger">22% <s class="text-dark">Rp115.000</s></p>
+                                </b>
+                                <p class="card-text"><i class="bi bi-geo-alt"></i><b> Jakarta Utara</b></p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-sm-3 mb-3">
-                <div class="card" style="border-radius: 20px">
-                    <img src="img/produk2.webp" class="card-img-top" style="border-radius: 20px" alt="MINISO Krim Tangan Bunga 30mL Fruity Hand Cream Mawar Raspberry Rose - Raspberry" />
-                    <div class="card-body">
-                        <div class="card-text">
-                            <p>MINISO Krim Tangan Bunga 30mL Fruity Hand Cream...</p>
-                            <b>
-                                <p>Rp18.900</p>
-                            </b>
-                            <b>
-                                <p class="text-danger">37% <s class="text-dark">Rp29.900</s></p>
-                            </b>
-                            <p class="card-text"><i class="bi bi-geo-alt"></i><b> Kudus</b></p>
+                <a href="http://localhost/Tokopedia/landing-tokped.php">
+                    <div class="card" style="border-radius: 20px">
+                        <img src="img/produk2.webp" class="card-img-top" style="border-radius: 20px; width: auto; height: auto" alt="MINISO Krim Tangan Bunga 30mL Fruity Hand Cream Mawar Raspberry Rose - Raspberry" />
+                        <div class="card-body">
+                            <div class="card-text" style="color: black; text-decoration: none">
+                                <p>MINISO Krim Tangan Bunga 30mL Fruity Hand Cream...</p>
+                                <b>
+                                    <p>Rp18.900</p>
+                                </b>
+                                <b>
+                                    <p class="text-danger">37% <s class="text-dark">Rp29.900</s></p>
+                                </b>
+                                <p class="card-text"><i class="bi bi-geo-alt"></i><b> Jakarta Utara</b></p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-sm-3 mb-3">
-                <div class="card" style="border-radius: 20px">
-                    <img src="img/produk3.webp" class="card-img-top" style="border-radius: 20px" alt="Oral-B Sikat Gigi Toothbrush Complete Easy Clean Charcoal 3s" />
-                    <div class="card-body">
-                        <div class="card-text">
-                            <p>Oral-B Sikat Gigi Toothbrush Complete Easy Clean...</p>
-                            <b>
-                                <p>Rp16.324</p>
-                            </b>
-                            <b>
-                                <p class="text-danger">23% <s class="text-dark">Rp21.200</s></p>
-                            </b>
-                            <p class="card-text"><i class="bi bi-geo-alt"></i><b> Solo</b></p>
+                <a href="http://localhost/Tokopedia/landing-tokped.php">
+                    <div class="card" style="border-radius: 20px">
+                        <img src="img/produk3.webp" class="card-img-top" style="border-radius: 20px; width: auto; height: auto" alt="Oral-B Sikat Gigi Toothbrush Complete Easy Clean Charcoal 3s" />
+                        <div class="card-body">
+                            <div class="card-text">
+                                <p>Oral-B Sikat Gigi Toothbrush Complete Easy Clean...</p>
+                                <b>
+                                    <p>Rp16.324</p>
+                                </b>
+                                <b>
+                                    <p class="text-danger">23% <s class="text-dark">Rp21.200</s></p>
+                                </b>
+                                <p class="card-text"><i class="bi bi-geo-alt"></i><b> Solo</b></p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-sm-3 mb-3">
-                <div class="card" style="border-radius: 20px">
-                    <img src="img/produk4.webp" class="card-img-top" style="border-radius: 20px" alt="Loyang Kue Silikon CaTalina TAHAN PANAS Pink - BAK-39C" />
-                    <div class="card-body">
-                        <div class="card-text">
-                            <p>Loyang Kue Silikon CaTalina TAHAN PANAS Pink...</p>
-                            <b>
-                                <p>Rp29.561</p>
-                            </b>
-                            <b>
-                                <p class="text-danger">84% <s class="text-dark">Rp187.560</s></p>
-                            </b>
-                            <p class="card-text"><i class="bi bi-geo-alt"></i><b> Surabaya</b></p>
+                <a href="http://localhost/Tokopedia/landing-tokped.php">
+                    <div class="card" style="border-radius: 20px">
+                        <img src="img/produk4.webp" class="card-img-top" style="border-radius: 20px; width: auto; height: auto" alt="Loyang Kue Silikon CaTalina TAHAN PANAS Pink - BAK-39C" />
+                        <div class="card-body">
+                            <div class="card-text">
+                                <p>Loyang Kue Silikon CaTalina TAHAN PANAS Pink...</p>
+                                <b>
+                                    <p>Rp29.561</p>
+                                </b>
+                                <b>
+                                    <p class="text-danger">84% <s class="text-dark">Rp187.560</s></p>
+                                </b>
+                                <p class="card-text"><i class="bi bi-geo-alt"></i><b> Surabaya</b></p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-3 mb-3">
-                <div class="card" style="border-radius: 20px">
-                    <img src="img/produk5.webp" class="card-img-top" style="border-radius: 20px" alt="Mouse Wireless Logitech M221 - Silent Click" />
-                    <div class="card-body">
-                        <div class="card-text">
-                            <p>Mouse Wireless Logitech M221 - Silent Click...</p>
-                            <b>
-                                <p>Rp171.600</p>
-                            </b>
-                            <b>
-                                <p class="text-danger">12% <s class="text-dark">Rp195.000</s></p>
-                            </b>
-                            <p class="card-text"><i class="bi bi-geo-alt"></i><b> Tangerang</b></p>
-                        </div>
-                    </div>
-                </div>
+                </a>
             </div>
             <div class="col-sm-3 mb-3">
-                <div class="card" style="border-radius: 20px">
-                    <img src="img/produk6.webp" class="card-img-top" style="border-radius: 20px" alt="Vaseline Super Food Cranberry 200ml Body Lotion Skin Serum 200 ml" />
-                    <div class="card-body">
-                        <div class="card-text">
-                            <p>Vaseline Super Food Cranberry 200ml Body...</p>
-                            <b>
-                                <p>Rp28.300</p>
-                            </b>
-                            <b>
-                                <p class="text-danger">5% <s class="text-dark">Rp29.800</s></p>
-                            </b>
-                            <p class="card-text"><i class="bi bi-geo-alt"></i><b> Bandung</b></p>
+                <a href="http://localhost/Tokopedia/landing-tokped.php">
+                    <div class="card" style="border-radius: 20px">
+                        <img src="img/produk5.webp" class="card-img-top" style="border-radius: 20px; width: auto; height: auto" alt="Mouse Wireless Logitech M221 - Silent Click" />
+                        <div class="card-body">
+                            <div class="card-text">
+                                <p>Mouse Wireless Logitech M221 - Silent Click...</p>
+                                <b>
+                                    <p>Rp171.600</p>
+                                </b>
+                                <b>
+                                    <p class="text-danger">12% <s class="text-dark">Rp195.000</s></p>
+                                </b>
+                                <p class="card-text"><i class="bi bi-geo-alt"></i><b> Tangerang</b></p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-sm-3 mb-3">
-                <div class="card" style="border-radius: 20px">
-                    <img src="img/produk7.webp" class="card-img-top" style="border-radius: 20px" alt="Kacamata Hitam Sunglasses Round Modern Style Anti UV-400 97074 - Black Leopard, Lensa Normal" />
-                    <div class="card-body">
-                        <div class="card-text">
-                            <p>Kacamata Hitam Sunglasses Round Modern...</p>
-                            <b>
-                                <p>Rp35.000</p>
-                            </b>
-                            <b>
-                                <p class="text-danger">73% <s class="text-dark">Rp129.900</s></p>
-                            </b>
-                            <p class="card-text"><i class="bi bi-geo-alt"></i><b> Tegal</b></p>
+                <a href="http://localhost/Tokopedia/landing-tokped.php">
+                    <div class="card" style="border-radius: 20px">
+                        <img src="img/produk6.webp" class="card-img-top" style="border-radius: 20px; width: auto; height: auto" alt="Vaseline Super Food Cranberry 200ml Body Lotion Skin Serum 200 ml" />
+                        <div class="card-body">
+                            <div class="card-text">
+                                <p>Vaseline Super Food Cranberry 200ml Body...</p>
+                                <b>
+                                    <p>Rp28.300</p>
+                                </b>
+                                <b>
+                                    <p class="text-danger">5% <s class="text-dark">Rp29.800</s></p>
+                                </b>
+                                <p class="card-text"><i class="bi bi-geo-alt"></i><b> Bandung</b></p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-sm-3 mb-3">
-                <div class="card" style="border-radius: 20px">
-                    <img src="img/produk8.webp" class="card-img-top" style="border-radius: 20px" alt="Anlene Gold 5X Susu Bubuk Vanila 640g-Tulang, Sendi & Otot" />
-                    <div class="card-body">
-                        <div class="card-text">
-                            <p>Anlene Gold 5X Susu Bubuk Vanila 640g...</p>
-                            <b>
-                                <p>Rp82.000</p>
-                            </b>
-                            <b>
-                                <p class="text-danger">20% <s class="text-dark">Rp103.104</s></p>
-                            </b>
-                            <p class="card-text"><i class="bi bi-geo-alt"></i><b> Surabaya</b></p>
+                <a href="http://localhost/Tokopedia/landing-tokped.php">
+                    <div class="card" style="border-radius: 20px">
+                        <img src="img/produk7.webp" class="card-img-top" style="border-radius: 20px; width: auto; height: auto" alt="Kacamata Hitam Sunglasses Round Modern Style Anti UV-400 97074 - Black Leopard, Lensa Normal" />
+                        <div class="card-body">
+                            <div class="card-text">
+                                <p>Kacamata Hitam Sunglasses Round Modern...</p>
+                                <b>
+                                    <p>Rp35.000</p>
+                                </b>
+                                <b>
+                                    <p class="text-danger">73% <s class="text-dark">Rp129.900</s></p>
+                                </b>
+                                <p class="card-text"><i class="bi bi-geo-alt"></i><b> Tegal</b></p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
+            </div>
+            <div class="col-sm-3 mb-3">
+                <a href="http://localhost/Tokopedia/landing-tokped.php">
+                    <div class="card" style="border-radius: 20px">
+                        <img src="img/produk8.webp" class="card-img-top" style="border-radius: 20px; width: auto; height: auto" alt="Anlene Gold 5X Susu Bubuk Vanila 640g-Tulang, Sendi & Otot" />
+                        <div class="card-body">
+                            <div class="card-text">
+                                <p>Anlene Gold 5X Susu Bubuk Vanila 640g...</p>
+                                <b>
+                                    <p>Rp82.000</p>
+                                </b>
+                                <b>
+                                    <p class="text-danger">20% <s class="text-dark">Rp103.104</s></p>
+                                </b>
+                                <p class="card-text"><i class="bi bi-geo-alt"></i><b> Surabaya</b></p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -334,7 +348,7 @@ if (!isset($_SESSION['email'])) {
     <div class="container">
         <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
             <div class="col mb-3">
-                <a class="navbar-brand" href="http://localhost/pemrograman-web/pertemuan1/Ecommerce/admin-tokped.php">
+                <a class="navbar-brand" href="http://localhost/Tokopedia/admin-tokped.php">
                     <img src="img/logo.svg" alt="" />
                 </a>
                 <p class="text-muted">© 2022</p>
@@ -347,7 +361,7 @@ if (!isset($_SESSION['email'])) {
             <div class="col mb-3">
                 <h5>Menu</h5>
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="http://localhost/pemrograman-web/pertemuan1/Ecommerce/admin-tokped.php" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="http://localhost/Tokopedia/admin-tokped.php" class="nav-link p-0 text-muted">Home</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">For You</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Explore</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Category</a></li>
